@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Telemetry UI</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; background: #f7f7f7; }
+    .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,.08); max-width: 900px; }
+    .alert { margin-top: 12px; padding: 12px 14px; border-left: 5px solid #d33; background: #fff5f5; border-radius: 8px; }
+    .meta { color: #666; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Telemetry Realtime UI</h1>
+    <p>Tu pojawią się alerty z InfluxDB/Webhook/SignalR.</p>
+    <div id="status">Łączenie...</div>
+    <div id="alerts"></div>
+  </div>
+
+  <script>
+    const status = document.getElementById('status');
+    const alerts = document.getElementById('alerts');
+
+    const connection = new signalR.HubConnectionBuilder()
+      .withUrl('/hubs/alerts')
+      .withAutomaticReconnect()
+      .build();
+
+    connection.on('ReceiveAlert', alert => {
+      const div = document.createElement('div');
+      div.className = 'alert';
+      div.innerHTML = `<strong>${alert.ruleName || 'Alert'}</strong><br/>${alert.message || ''}<div class="meta">${alert.measurement || ''} ${alert.location || ''} ${alert.value ?? ''} ${alert.timestampUtc || ''}</div>`;
+      alerts.prepend(div);
+    });
+
+    connection.start()
+      .then(() => status.textContent = 'Połączono z SignalR.')
+      .catch(err => status.textContent = 'Błąd połączenia: ' + err);
+  </script>
+</body>
+</html>

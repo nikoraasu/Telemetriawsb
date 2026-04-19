@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8aLmUDMT8Eo=",
+  "success": true,
+  "projectFilePath": "/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/Telemetry.Contracts.csproj",
+  "expectedPackageFiles": [
+    "/home/nikolas/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.25/microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

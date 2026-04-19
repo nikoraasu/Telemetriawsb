@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.FrontApi/Telemetry.FrontApi.csproj": {}
+  },
+  "projects": {
+    "/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/Telemetry.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/Telemetry.Contracts.csproj",
+        "projectName": "Telemetry.Contracts",
+        "projectPath": "/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/Telemetry.Contracts.csproj",
+        "packagesPath": "/home/nikolas/.nuget/packages/",
+        "outputPath": "/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nikolas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.FrontApi/Telemetry.FrontApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.FrontApi/Telemetry.FrontApi.csproj",
+        "projectName": "Telemetry.FrontApi",
+        "projectPath": "/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.FrontApi/Telemetry.FrontApi.csproj",
+        "packagesPath": "/home/nikolas/.nuget/packages/",
+        "outputPath": "/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.FrontApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nikolas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/Telemetry.Contracts.csproj": {
+                "projectPath": "/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/Telemetry.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.25, 8.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

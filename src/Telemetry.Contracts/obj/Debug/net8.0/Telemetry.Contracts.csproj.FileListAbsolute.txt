@@ -1,0 +1,12 @@
+/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/bin/Debug/net8.0/Telemetry.Contracts.deps.json
+/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/bin/Debug/net8.0/Telemetry.Contracts.dll
+/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/bin/Debug/net8.0/Telemetry.Contracts.pdb
+/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/obj/Debug/net8.0/Telemetry.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/obj/Debug/net8.0/Telemetry.Contracts.AssemblyInfoInputs.cache
+/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/obj/Debug/net8.0/Telemetry.Contracts.AssemblyInfo.cs
+/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/obj/Debug/net8.0/Telemetry.Contracts.csproj.CoreCompileInputs.cache
+/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/obj/Debug/net8.0/Telemetry.Contracts.sourcelink.json
+/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/obj/Debug/net8.0/Telemetry.Contracts.dll
+/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/obj/Debug/net8.0/refint/Telemetry.Contracts.dll
+/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/obj/Debug/net8.0/Telemetry.Contracts.pdb
+/home/nikolas/StudiaSystemTelemetrycznyProjekt/src/Telemetry.Contracts/obj/Debug/net8.0/ref/Telemetry.Contracts.dll
